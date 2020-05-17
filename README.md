@@ -1,4 +1,4 @@
-# EasyChat-Webapplication
+# EasyChat-Webapplikation
 
 Um die Applikation zu installieren müssen mittels des Terminals sowohl im Ordner 'API' als auch 'Application' die Node Modules installiert werden, indem man den command 'npm i' im Terminal ausführt.
 
