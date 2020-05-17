@@ -1,0 +1,7 @@
+<div class="d-flex">
+	<input 	class="form-control mr-1"
+			placeholder="Nachricht"
+			[(ngModel)]="chatMessage"
+			(keyup.enter)="addMessage()">
+	<button class="btn btn-primary custom-btn" (click)="addMessage()" [disabled]="!chatMessage">senden</button>
+</div>

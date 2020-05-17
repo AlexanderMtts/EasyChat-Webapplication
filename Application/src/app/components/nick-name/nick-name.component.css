@@ -1,0 +1,26 @@
+.btn-primary.custom-btn {
+	position: relative;
+	background-color: #00802F;
+	border-color: white;
+}
+
+.alert  {
+	position: absolute;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 0.25rem;
+	background: white;
+	color: #00802F;
+	font-size: 15px;
+	box-shadow: 0 0.2em 0.25em rgba(0, 0, 0, 0.075);
+	transition: all 0.2s ease-in-out;
+	opacity: 0;
+}
+
+.visible {
+	opacity: 1;
+	transform: translateY(1.25rem);
+}
+
+.nickname {
+	margin-bottom: 5px;
+}

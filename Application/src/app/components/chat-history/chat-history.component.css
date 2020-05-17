@@ -1,0 +1,11 @@
+div {
+    height: calc(100vh - 175px);
+    position: relative;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+	hyphens: auto;
+	-webkit-hyphens: auto;
+  	-ms-hyphens: auto;
+  	-moz-hyphens: auto;
+}

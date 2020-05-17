@@ -1,0 +1,9 @@
+<div class="nickname">
+	<div class="d-flex">
+		<input 	class="form-control mr-1" placeholder="Benutzername" [(ngModel)]="nickname">
+		<button class="btn btn-primary custom-btn" (click)="createNickname(nickname);showAlert()" [disabled]="!nickname">erstellen</button>
+	</div>
+	<div class="alert" [class.visible]="isVisible">
+		Benutzername gespeichert
+	</div>
+</div>

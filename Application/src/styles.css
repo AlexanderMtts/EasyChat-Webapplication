@@ -1,0 +1,9 @@
+.nickname {
+    color: #00802F;
+    font-weight: bold;
+	font-size: 17px
+}
+
+.time {
+    float: right;
+}
